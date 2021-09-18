@@ -1,14 +1,19 @@
+# Dotfiles
+
+Backups for my dotfiles
+
+## Vim Setup
+
 Installation:
 
-    Clone the repository
+- Clone the repository
 
 Create symlinks:
 
-    ln -s ~/.vim/vimrc ~/.vimrc
-    ln -s ~/.vim/gvimrc ~/.gvimrc
+- ln -s ~/.vim/vimrc ~/.vimrc
 
 Switch to the `~/.vim` directory, and fetch submodules:
 
-    cd ~/.vim
-    git submodule init
-    git submodule update
+- cd ~/.vim
+- git submodule init
+- git submodule update
